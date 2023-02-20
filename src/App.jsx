@@ -9,8 +9,8 @@ function App() {
       <div className='gradient__bg'>
         <Navbar />
         <Header />
-      </div>
       <Brand />
+      </div>
       <WhatGPT3 />
       <Features />
       <Possibility />

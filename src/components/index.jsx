@@ -5,3 +5,4 @@ export { default as Feature } from './feature/Feature';
 export { default as Navbar } from './navbar/Navbar';
 export { default as Button } from './button/Button';
 export { default as Heading } from './heading/Heading';
+export { default as Line } from './ui/line/Line';

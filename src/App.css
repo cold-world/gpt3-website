@@ -48,37 +48,9 @@ li {
   background: var(--gradient-text);
 }
 
-/* Handle on hover */
-*::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
-
 .gradient__bg {
-  background: -moz-radial-gradient(
-    circle at 3% 25%,
-    rgba(0, 40, 83, 0.6) 0%,
-    rgba(4, 12, 24, 1) 75%
-  );
-
-  /* safari 5.1+,chrome 10+ */
-  background: -webkit-radial-gradient(
-    circle at 3% 25%,
-    rgba(0, 40, 83, 0.6) 0%,
-    rgba(4, 12, 24, 1) 75%
-  );
-
-  /* opera 11.10+ */
-  background: -o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 0.6) 0%, rgba(4, 12, 24, 1) 75%);
-
-  /* ie 10+ */
-  background: -ms-radial-gradient(
-    circle at 3% 25%,
-    rgba(0, 40, 83, 0.6) 0%,
-    rgba(4, 12, 24, 1) 75%
-  );
-
-  /* global 92%+ browsers support */
-  background: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 0.6) 0%, rgba(4, 12, 24, 1) 75%);
+  background: radial-gradient(circle at top left, rgba(0, 40, 83, 0.5), transparent 1000px),
+    radial-gradient(circle at right, rgba(0, 40, 83, 0.3), transparent 600px);
 }
 
 .gradient__text {
@@ -100,6 +72,81 @@ li {
 .scale-up-center {
   -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.gpt3__heading-big {
+  font-size: 6.5rem;
+  font-weight: 800;
+  line-height: 7.5rem;
+  letter-spacing: -0.04em;
+}
+
+.gpt3__heading-middle {
+  font-size: 3.4rem;
+  font-weight: 800;
+  line-height: 4.5rem;
+}
+
+.gpt3__heading-small {
+  position: relative;
+
+  min-width: fit-content;
+
+  font-size: 2.4rem;
+  font-weight: 800;
+  line-height: 5.5rem;
+}
+
+.gpt3__heading-small::before {
+  content: '';
+
+  position: absolute;
+
+  width: 3.8rem;
+  height: 3px;
+
+  background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%), #ffffff;
+}
+
+.gpt3__description-big {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.7rem;
+  color: var(--color-text);
+}
+
+.gpt3__description-middle {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 3rem;
+  color: var(--color-text);
+}
+
+.gpt3__description-small {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  color: var(--color-text);
+}
+
+.gpt3__line {
+  display: inline-block;
+  width: 3.8rem;
+  height: 3px;
+  background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%), #ffffff;
+}
+
+@media screen and (max-width: 650px) {
+}
+
+@media screen and (max-width: 375px) {
+  .gpt3__heading-big {
+    font-size: 5rem;
+    line-height: 5.5rem;
+  }
+  .gpt3__description-big {
+    font-size: 1.7rem;
+  }
 }
 
 @-webkit-keyframes scale-up-center {

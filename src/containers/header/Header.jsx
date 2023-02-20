@@ -11,9 +11,9 @@ function Header() {
         <Heading
           tag='h1'
           text='Let’s Build Something amazing with GPT-3 OpenAI'
-          className='gradient__text gpt3__header-heading'
+          className='gradient__text gpt3__heading-big'
         />
-        <p className='gpt3__header-description'>
+        <p className='gpt3__description-big'>
           Yet bed any for traveling assistance indulgence unpleasing. Not thoughts all exercise
           blessing. Indulgence way everything joy alteration boisterous the attachment. Party we
           years to order allow asked of.
