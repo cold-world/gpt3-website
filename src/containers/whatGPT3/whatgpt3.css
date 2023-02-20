@@ -21,19 +21,6 @@
   max-width: 47rem;
 }
 
-.gpt3__whatgpt3-container__possibilities span {
-  cursor: pointer;
-
-  font-size: 16px;
-  font-weight: 500;
-  font-style: normal;
-  line-height: 30px;
-  color: #ff8a71;
-}
-.gpt3__whatgpt3-container__possibilities span:hover {
-  color: #c05841;
-}
-
 .gpt3__whatgpt3-container__more {
   display: flex;
   gap: 4rem;
@@ -43,11 +30,9 @@
 @media screen and (max-width: 1050px) {
   .gpt3__whatgpt3-container__possibilities {
     display: block;
-    margin: 5rem 0;
+    margin: 3rem 0;
   }
-  .gpt3__whatgpt3-container__possibilities h2 {
-    margin-bottom: 1rem;
-  }
+
   .gpt3__whatgpt3-container__what {
     display: block;
   }

@@ -1,5 +1,6 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-import { Heading } from '../../components';
+import { Heading, Link } from '../../components';
 import './whatgpt3.css';
 
 function WhatGPT3() {
@@ -21,7 +22,7 @@ function WhatGPT3() {
             tag='h2'
             text='The possibilities are beyond your imagination'
           />
-          <span>Explore The Library</span>
+          <Link text='Explore The Library' />
         </div>
         <div className='gpt3__whatgpt3-container__more'>
           <div className='gpt3__whatgpt3-container__more-box'>

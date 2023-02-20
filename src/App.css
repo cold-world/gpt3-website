@@ -53,6 +53,10 @@ li {
     radial-gradient(circle at right, rgba(0, 40, 83, 0.3), transparent 600px);
 }
 
+.gradient__bg2 {
+  background: radial-gradient(circle at bottom left, rgba(0, 40, 83, 0.4), transparent 600px);
+}
+
 .gradient__text {
   background-image: var(--gradient-text);
   -webkit-background-clip: text;
@@ -97,10 +101,31 @@ li {
   line-height: 5.5rem;
 }
 
+.gpt3__heading-smallest {
+  position: relative;
+
+  font-size: 1.8rem;
+  font-weight: 800;
+  line-height: 2.4rem;
+  letter-spacing: -0.04em;
+}
+
 .gpt3__heading-small::before {
   content: '';
 
   position: absolute;
+
+  width: 3.8rem;
+  height: 3px;
+
+  background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%), #ffffff;
+}
+
+.gpt3__heading-smallest::before {
+  content: '';
+
+  position: absolute;
+  top: -0.8rem;
 
   width: 3.8rem;
   height: 3px;
@@ -136,17 +161,21 @@ li {
   background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%), #ffffff;
 }
 
-@media screen and (max-width: 650px) {
-}
+.gpt3__link {
+  cursor: pointer;
 
-@media screen and (max-width: 375px) {
-  .gpt3__heading-big {
-    font-size: 5rem;
-    line-height: 5.5rem;
-  }
-  .gpt3__description-big {
-    font-size: 1.7rem;
-  }
+  display: inline-block;
+
+  padding: 3rem 0;
+
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 30px;
+  color: #ff8a71;
+}
+.gpt3__link:hover {
+  color: #c05841;
 }
 
 @-webkit-keyframes scale-up-center {
@@ -186,5 +215,24 @@ li {
   }
   .section__margin {
     padding: 2rem 2rem;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .gpt3__link {
+    padding: 1.5rem 0;
+  }
+}
+
+@media screen and (max-width: 650px) {
+}
+
+@media screen and (max-width: 375px) {
+  .gpt3__heading-big {
+    font-size: 5rem;
+    line-height: 5.5rem;
+  }
+  .gpt3__description-big {
+    font-size: 1.7rem;
   }
 }
