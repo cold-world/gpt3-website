@@ -1,0 +1,24 @@
+.button {
+  cursor: pointer;
+
+  padding: 1rem 2rem;
+
+  font-family: var(--font-family);
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  color: #fff;
+
+  background-color: var(--color-orange);
+  border: none;
+  border-radius: 5px;
+  outline: none;
+
+  transition: all 0.3s;
+}
+.button:focus {
+  outline: 1px solid #fff;
+}
+
+.button:hover {
+  background-color: var(--color-orange-dark);
+}
