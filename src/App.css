@@ -54,7 +54,7 @@ li {
 }
 
 .gradient__bg2 {
-  background: radial-gradient(circle at bottom left, rgba(0, 40, 83, 0.4), transparent 600px);
+  background: radial-gradient(circle at left, rgba(0, 40, 83, 0.4), transparent 600px);
 }
 
 .gradient__text {

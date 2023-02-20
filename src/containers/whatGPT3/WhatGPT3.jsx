@@ -5,7 +5,7 @@ import './whatgpt3.css';
 
 function WhatGPT3() {
   return (
-    <div className='gpt3__whatgpt3 section__padding' id='wgpt3'>
+    <section className='gpt3__whatgpt3 section__padding' id='wgpt3'>
       <div className='gpt3__whatgpt3-container'>
         <div className='gpt3__whatgpt3-container__what'>
           <Heading className='gpt3__heading-small' tag='h4' text='What is GPT-3' />
@@ -47,7 +47,7 @@ function WhatGPT3() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
