@@ -5,7 +5,7 @@ import './features.css';
 
 function Features() {
   return (
-    <section className='gpt3__features section__padding'>
+    <section className='gpt3__features section__padding' id='features'>
       <div className='gpt3__features-container'>
         <Heading
           className='gradient__text gpt3__heading-middle'
@@ -43,8 +43,8 @@ function Features() {
         <div className='gpt3__features-container__box'>
           <Heading className='gpt3__heading-smallest' tag='h3' text='Really boy law county' />
           <p className='gpt3__description-small'>
-            Really boy law county she unable her sister. Feet you off its like like six. Among sex
-            are leave law built now. In built table in an rapid blush.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iure ex id eligendi
+            voluptatibus at, aperiam voluptates praesentium ipsum explicabo.
           </p>
         </div>
       </div>

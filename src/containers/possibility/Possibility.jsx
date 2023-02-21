@@ -6,7 +6,7 @@ import { Heading, Link } from '../../components';
 
 function Possibility() {
   return (
-    <section className='gpt3__possibility section__padding'>
+    <section className='gpt3__possibility section__padding' id='possibility'>
       <div className='gpt3__possibility-image'>
         <img src={possibility} alt='VR' />
       </div>

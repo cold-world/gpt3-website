@@ -2,6 +2,7 @@
   display: flex;
   gap: 2rem;
   align-items: center;
+  margin: 0 5rem;
 }
 .gpt3__possibility-image {
   flex: 1;
@@ -27,5 +28,6 @@
 @media screen and (max-width: 700px) {
   .gpt3__possibility {
     display: block;
+    margin: 0;
   }
 }
